@@ -9,7 +9,7 @@ const ingredients = [
 
 const ingredientsList = document.querySelector("#ingredients");
 
-// цей варінат додає елементи послідовно.
+// цей варіант додає елементи послідовно.
 const addIngredients = (arr) => {
   arr.map((meal) => {
     let item = document.createElement("li");
