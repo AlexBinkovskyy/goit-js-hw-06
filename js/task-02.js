@@ -20,7 +20,7 @@ const addIngredients = (arr) => {
 };
 
 
-//  другий варіант додає все одним махом а не поступово в тілі циклу
+//  другий варіант додає все одним махом, а не поступово в тілі циклу
 const addIngredients1 = (arr) => {
   const items = arr.map((meal) => {
     const item = document.createElement("li");
