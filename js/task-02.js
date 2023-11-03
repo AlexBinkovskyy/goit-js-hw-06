@@ -26,7 +26,6 @@ const addIngredients1 = (arr) => {
     const item = document.createElement("li");
     item.textContent = meal;
     item.classList.add("item");
-    console.log(item);
     return item;
   });
   ingredientsList.append(...items);
