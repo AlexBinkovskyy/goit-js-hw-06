@@ -21,7 +21,7 @@ const ingredientsList = document.querySelector("#ingredients");
 
 
 //  другий варіант додає все одним махом, а не поступово в тілі циклу
-const addIngredients1 = (arr) => {
+const addIngredients = (arr) => {
   const items = arr.map((meal) => {
     const item = document.createElement("li");
     item.textContent = meal;
@@ -32,4 +32,4 @@ const addIngredients1 = (arr) => {
 };
 
 addIngredients(ingredients);
-addIngredients1(ingredients);
+
