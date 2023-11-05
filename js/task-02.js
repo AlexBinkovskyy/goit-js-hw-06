@@ -10,14 +10,14 @@ const ingredients = [
 const ingredientsList = document.querySelector("#ingredients");
 
 // цей варіант додає елементи послідовно.
-const addIngredients = (arr) => {
-  arr.map((meal) => {
-    let item = document.createElement("li");
-    item.textContent = meal;
-    item.classList.add("item");
-    ingredientsList.append(item);
-  });
-};
+// const addIngredients = (arr) => {
+//   arr.map((meal) => {
+//     let item = document.createElement("li");
+//     item.textContent = meal;
+//     item.classList.add("item");
+//     ingredientsList.append(item);
+//   });
+// };
 
 
 //  другий варіант додає все одним махом, а не поступово в тілі циклу
